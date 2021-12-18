@@ -1,24 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+// 7ada7329ab0bb5dcac13b98a01073681
+// https://netflix-clone-9845c.web.app/
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <h1>Netflix Clone</h1> 
+    </>
   );
 }
 
