@@ -2,16 +2,19 @@ import React from "react";
 import "./App.css";
 import requests from "./requests";
 import Row from "./Row";
-
+import Banner from "./Banner";
+import Nav from "./Nav";
 // https://netflix-clone-9845c.web.app/
 
 function App() {
   return (
     <>
-      <h1>Netflix Clone</h1>
+    <Nav />
+    <Banner />
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
+        isLargeRow = {true}
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
